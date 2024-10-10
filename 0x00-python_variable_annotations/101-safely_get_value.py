@@ -3,8 +3,8 @@
 """ Duck typing - more involved type annotations """
 from typing import Dict, TypeVar, Union, Mapping, Any
 
-
 T = TypeVar('T')
+
 
 def safely_get_value(dct: Mapping,
                      key: Any,
